@@ -9,7 +9,7 @@ namespace MlStart
         static void Main(string[] args)
         {
             var fileName = "MLstartConfig.json";
-            var content = @"{""Test"": ""123""}";
+            var content = @"{""Test"": ""123432423423""}";
             File.WriteAllText(fileName, content);
 
             IConfiguration configuration = new ConfigurationBuilder()
